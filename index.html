@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <form action="" id="form1">
+        <div id="card1">Credit Card</div>
+        <div id="card-front">
+          <div id="shadow"></div>
+          <label for="card-number"> Card Number</label>
+          <input type="text" id="card-number" placeholder="1234 5458 9101 1342" length="16">
+          <div id="cardholder-container">
+            <label for="card-holder">Name On Card</label>
+            <input type="text" id="card-holder" placeholder="Name Surname" />
+          </div>
+          
+          <div id="exp-container">
+            <label for="card-exp">Expiry Date</label>
+            <input id="card-month" type="text" placeholder="02" length="2">
+            <input id="card-year" type="text" placeholder="2015" length="2">
+          </div>
+              <div id="cvc-container">
+            <label for="card-cvc"> CVC/CVV</label>
+            <input id="card-cvc" placeholder="***" type="text" min-length="3" max-length="3">
+          </div>
+    </form>
+</body>
+</html>
+
+
